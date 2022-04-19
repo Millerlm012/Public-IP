@@ -1,0 +1,6 @@
+#!/bin/bash
+# TODO: ensure that this script was made executable! `chmod +x initip`
+cd /home/user/cron/Public-IP/ # TODO: update to directory where script's are running
+source env/bin/activate # TODO: ensure you have a virtual env made with the appropriate libraries installed via pip
+python3 pub_ip.py
+deactivate
